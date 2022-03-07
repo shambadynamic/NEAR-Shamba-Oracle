@@ -49,3 +49,5 @@
 10. Again, the user gets another transaction url as the second transaction (in the above example, it's https://explorer.testnet.near.org/transactions/tMvtmZifqkafzRYhAjgVsjGi4xcRS4Li7aQNbRbcVeo i.e., the second element of the "transactions" array in the RESPONSE body of the API).
 
 11. Finally, the requested "agg_value" (i.e., "agg_max" in the above example) is now rendered to the front-end as a pop-up alert box, and both the transaction urls are shown in the "Transactions" tab.
+
+The backend code for this UI integrating NEAR with the Chainlink oracle is available at this link:   https://github.com/shambadynamic/NEAR-Shamba-Oracle-Backend
